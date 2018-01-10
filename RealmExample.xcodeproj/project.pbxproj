@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1260AC32006380500E1F2C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1260AC22006380500E1F2C7 /* User.swift */; };
-		F1260AC52006381200E1F2C7 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1260AC42006381200E1F2C7 /* Account.swift */; };
-		F1260AC72006382300E1F2C7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1260AC62006382300E1F2C7 /* Card.swift */; };
 		F1260AD0200638C700E1F2C7 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1260ACA200638C600E1F2C7 /* RxCocoa.framework */; };
 		F1260AD1200638C700E1F2C7 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1260ACB200638C600E1F2C7 /* Realm.framework */; };
 		F1260AD2200638C700E1F2C7 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1260ACC200638C600E1F2C7 /* RealmSwift.framework */; };
 		F1260AD4200638C700E1F2C7 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1260ACE200638C700E1F2C7 /* RxSwift.framework */; };
-		F1260AD72006396700E1F2C7 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1260AD62006396700E1F2C7 /* Property.swift */; };
 		F16ED6E62006307500860CD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16ED6E52006307500860CD2 /* AppDelegate.swift */; };
 		F16ED6E82006307500860CD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16ED6E72006307500860CD2 /* ViewController.swift */; };
 		F16ED6EB2006307500860CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16ED6E92006307500860CD2 /* Main.storyboard */; };
@@ -42,14 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F1260AC22006380500E1F2C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		F1260AC42006381200E1F2C7 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		F1260AC62006382300E1F2C7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F1260ACA200638C600E1F2C7 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		F1260ACB200638C600E1F2C7 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		F1260ACC200638C600E1F2C7 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		F1260ACE200638C700E1F2C7 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		F1260AD62006396700E1F2C7 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 		F16ED6E22006307500860CD2 /* RealmExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16ED6E52006307500860CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F16ED6E72006307500860CD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,10 +89,6 @@
 		F1260AC1200637F800E1F2C7 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				F1260AC22006380500E1F2C7 /* User.swift */,
-				F1260AC42006381200E1F2C7 /* Account.swift */,
-				F1260AC62006382300E1F2C7 /* Card.swift */,
-				F1260AD62006396700E1F2C7 /* Property.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -325,11 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F16ED6E82006307500860CD2 /* ViewController.swift in Sources */,
-				F1260AC52006381200E1F2C7 /* Account.swift in Sources */,
-				F1260AC72006382300E1F2C7 /* Card.swift in Sources */,
 				F16ED6E62006307500860CD2 /* AppDelegate.swift in Sources */,
-				F1260AD72006396700E1F2C7 /* Property.swift in Sources */,
-				F1260AC32006380500E1F2C7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,16 +38,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     public static func launch() {
         
-        let currentSchemaVersion: UInt64 = 1
+        let currentSchemaVersion: UInt64 = 2
         let config = Realm.Configuration(schemaVersion: currentSchemaVersion, migrationBlock: { migration, oldSchemaVersion in
-//            if oldSchemaVersion < currentSchemaVersion {
-//
-//                migration.deleteData(forType: "User")
-//                migration.deleteData(forType: "Card")
-//                migration.deleteData(forType: "Account")
-//                migration.deleteData(forType: "Property")
-//
-//            }
+            
+            if oldSchemaVersion < currentSchemaVersion {
+                migration.deleteData(forType: "User")
+                migration.deleteData(forType: "Card")
+                migration.deleteData(forType: "Account")
+                migration.deleteData(forType: "Property")
+            }
         })
         
         Realm.Configuration.defaultConfiguration = config
