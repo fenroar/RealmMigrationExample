@@ -1,0 +1,10 @@
+# Yoyo
+Keys.plist
+
+# Xcode
+xcuserdata/
+.DS_Store
+
+# Carthage
+Carthage/Checkouts
+#Carthage/Build
